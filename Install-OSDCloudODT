@@ -48,6 +48,7 @@ $O365ProPlusRetailMonthlyEnterprise = @'
       <ExcludeApp ID="Groove" />
       <ExcludeApp ID="OneNote" />
       <ExcludeApp ID="Bing" />
+      <ExcludeApp ID="Lync" />
     </Product>
     <Product ID="LanguagePack">
       <Language ID="en-us" />
