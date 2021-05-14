@@ -7,7 +7,7 @@ Enables ODT Support in an OSDCloud Workspace
 
 .LINK
 https://osdcloud.osdeploy.com
-JP Modified
+KCL Modified
 
 .NOTES
 #>
@@ -296,6 +296,176 @@ $ProPlus2019Volume = @'
     Write-Host -ForegroundColor Yellow      "$((Get-Date).ToString('yyyy-MM-dd-HHmmss')) $($MyInvocation.MyCommand.Name) " -NoNewline
     Write-Host -ForegroundColor Cyan        "Completed in $($ODTTimeSpan.ToString("mm' minutes 'ss' seconds'"))"
     #=======================================================================
+}
+
+function Save-WebFile {
+    [CmdletBinding()]
+    param (
+        #URL of the file to download
+        [Parameter(Position = 0, Mandatory = $true, ValueFromPipeline)]
+        [string]$SourceUrl,
+
+        #Destination File Name
+        [string]$DestinationName,
+
+        #Destination Folder
+        [Alias('Path')]
+        [string]$DestinationDirectory = "$env:TEMP\OSD",
+
+        #Overwrite the file if it exists already
+        #The default action is to skip the download
+        [switch]$Overwrite
+    )
+    #=======================================================================
+    #	DestinationDirectory
+    #=======================================================================
+    if (Test-Path "$DestinationDirectory") {
+    }
+    else {
+        New-Item -Path "$DestinationDirectory" -ItemType Directory -Force -ErrorAction Stop | Out-Null
+    }
+    Write-Verbose "DestinationDirectory: $DestinationDirectory"
+    #=======================================================================
+    #	DestinationName
+    #=======================================================================
+    if ($PSBoundParameters['DestinationName']) {
+    }
+    else {
+        $DestinationName = Split-Path -Path $SourceUrl -Leaf
+    }
+    Write-Verbose "DestinationName: $DestinationName"
+    #=======================================================================
+    #	WebFileFullName
+    #=======================================================================
+    $DestinationDirectoryItem = (Get-Item $DestinationDirectory).FullName
+    $DestinationFullName = Join-Path $DestinationDirectoryItem $DestinationName
+    #=======================================================================
+    #	OverWrite
+    #=======================================================================
+    if ((-NOT ($PSBoundParameters['Overwrite'])) -and (Test-Path $DestinationFullName)) {
+        Write-Verbose "DestinationFullName already exists"
+        Get-Item $DestinationFullName
+    }
+    else {
+        #=======================================================================
+        #	Download
+        #=======================================================================
+        if (Get-Command 'curl.exe') {
+            Write-Verbose "cURL: $SourceUrl"
+    
+            if ($host.name -match 'ConsoleHost') {
+                Invoke-Expression "& curl.exe --location --output `"$DestinationFullName`" --url $SourceUrl"
+            }
+            else {
+                #PowerShell ISE will display a NativeCommandError, so progress will not be displayed
+                $Quiet = Invoke-Expression "& curl.exe --location --output `"$DestinationFullName`" --url $SourceUrl 2>&1"
+            }
+        }
+        else {
+            [Net.ServicePointManager]::SecurityProtocol = [Net.ServicePointManager]::SecurityProtocol -bor [Net.SecurityProtocolType]::Tls1
+            $WebClient = New-Object System.Net.WebClient
+            $WebClient.DownloadFile($SourceUrl, $DestinationFullName)
+        }
+        #=======================================================================
+        #	Return
+        #=======================================================================
+        if (Test-Path $DestinationFullName) {
+            Get-Item $DestinationFullName
+        }
+        else {
+            Write-Warning "Could not download $DestinationFullName"
+            $null
+        }
+        #=======================================================================
+    }
+}
+
+function Test-WebConnection {
+    [CmdletBinding()]
+    param (
+        [Parameter(ValueFromPipeline = $True)]
+        [string]$Uri = 'google.com'
+    )
+    
+    begin {}
+    
+    process {
+        $Params = @{
+            Method = 'Head'
+            Uri = $Uri
+            UseBasicParsing = $True
+        }
+
+        try {
+            Write-Verbose "Test-WebConnection OK: $Uri"
+            Invoke-WebRequest @Params | Out-Null
+            $true
+        }
+        catch {
+            Write-Verbose "Test-WebConnection FAIL: $Uri"
+            $false
+        }
+        finally {
+            $Error.Clear()
+        }
+    }
+    
+    end {}
+}
+
+function Test-WebConnection {
+    [CmdletBinding()]
+    param (
+        [Parameter(ValueFromPipeline = $True)]
+        [string]$Uri = 'google.com'
+    )
+    
+    begin {}
+    
+    process {
+        $Params = @{
+            Method = 'Head'
+            Uri = $Uri
+            UseBasicParsing = $True
+        }
+
+        try {
+            Write-Verbose "Test-WebConnection OK: $Uri"
+            Invoke-WebRequest @Params | Out-Null
+            $true
+        }
+        catch {
+            Write-Verbose "Test-WebConnection FAIL: $Uri"
+            $false
+        }
+        finally {
+            $Error.Clear()
+        }
+    }
+    
+    end {}
+}
+function Wait-WebConnection {
+    [CmdletBinding()]
+    param (
+        [Parameter(ValueFromPipeline = $True)]
+        [string]$Uri = 'powershellgallery.com'
+    )
+
+
+    if ((Test-WebConnection -Uri 'powershellgallery.com') -eq $true) {
+        Write-Verbose "Wait-WebConnection to $Uri"
+    }
+    else {
+        do {
+            Write-Verbose "Wait-WebConnection to $Uri"
+            
+            Write-Verbose "Waiting 10 seconds to try again ..."
+            Start-Sleep -Seconds 10
+    
+        } until ((Test-WebConnection -Uri 'powershellgallery.com') -eq $true)
+    }
+    $Error.Clear()
 }
 
 Install-OSDCloudODT
