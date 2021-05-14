@@ -7,7 +7,7 @@ Enables ODT Support in an OSDCloud Workspace
 
 .LINK
 https://osdcloud.osdeploy.com
-KCL Modified
+JP Modified
 
 .NOTES
 #>
@@ -275,7 +275,7 @@ $ProPlus2019Volume = @'
 
         Write-Verbose "ODT: Installing Microsoft Office"
         #Start-Process -WorkingDirectory 'C:\OSDCloud\ODT' -FilePath 'setup.exe' -ArgumentList "/configure","Config.xml" -Wait -Verbose
-        & .\setup.exe /configure .\OSDM365MonthlyEnterprise.xml
+        & $WorkspacePath\ODT\O365ProPlusRetail\MonthlyEnterprise\setup.exe /configure $WorkspacePath\ODT\O365ProPlusRetail\MonthlyEnterprise\OSDM365MonthlyEnterprise.xml
 
         Write-Verbose "ODT: Enable Telemetry"
         reg add HKCU\Software\Policies\Microsoft\Office\Common\ClientTelemetry /v DisableTelemetry /t REG_DWORD /d 0 /f
