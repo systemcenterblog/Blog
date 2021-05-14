@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-Enables ODT Support in an OSDCloud Workspace
+Downloads and installs Office 365 EverGreen
 
 .Description
-Enables ODT Support in an OSDCloud Workspace
+Downloads and installs Office 365 EverGreen
 
 .LINK
-https://osdcloud.osdeploy.com
+Original code created by https://osdcloud.osdeploy.com
 JP Modified
 
 .NOTES
