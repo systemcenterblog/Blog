@@ -6,6 +6,7 @@
 * [Blog](blog/README.md)
   * [CVE-2023-24932](blog/cve-2023-24932/README.md)
     * [Bootx64.efi: Windows UEFI 2023 CA signed](blog/cve-2023-24932/bootx64.efi-windows-uefi-2023-ca-signed.md)
+  * [Microsoft 365 App Authentication](blog/microsoft-365-app-authentication.md)
 
 ## Getting Started
 
