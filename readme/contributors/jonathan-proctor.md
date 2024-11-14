@@ -1,2 +1,0 @@
-# Jonathan Proctor
-
