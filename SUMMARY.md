@@ -1,9 +1,8 @@
 # Table of contents
 
-* [Welcome](README.md)
-* [About](about/README.md)
-  * [Contributors](about/contributors/README.md)
-    * [Jonathan Proctor](about/contributors/jonathan-proctor.md)
+* [About](README.md)
+  * [Contributors](readme/contributors/README.md)
+    * [Jonathan Proctor](readme/contributors/jonathan-proctor.md)
 * [Blog](blog/README.md)
   * [CVE-2023-24932](blog/cve-2023-24932/README.md)
     * [Bootx64.efi: Windows UEFI 2023 CA signed](blog/cve-2023-24932/bootx64.efi-windows-uefi-2023-ca-signed.md)
