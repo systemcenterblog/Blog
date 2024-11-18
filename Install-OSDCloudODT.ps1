@@ -1,12 +1,12 @@
 <#
 .SYNOPSIS
-Downloads and installs Office 365 EverGreen
+Enables ODT Support in an OSDCloud Workspace
 
 .Description
-Downloads and installs Office 365 EverGreen
+Enables ODT Support in an OSDCloud Workspace
 
 .LINK
-Original code created by https://osdcloud.osdeploy.com
+https://osdcloud.osdeploy.com
 JP Modified
 
 .NOTES
@@ -46,7 +46,6 @@ $O365ProPlusRetailMonthlyEnterprise = @'
     <Product ID="O365ProPlusRetail">
       <Language ID="MatchOS" />
       <ExcludeApp ID="Groove" />
-      <ExcludeApp ID="OneNote" />
       <ExcludeApp ID="Bing" />
       <ExcludeApp ID="Lync" />
     </Product>
