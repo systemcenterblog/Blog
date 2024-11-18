@@ -8,6 +8,7 @@
     * [Part 2: Applying the mitigation](blog/cve-2023-24932/part-2-applying-the-mitigation.md)
   * [Microsoft 365 App Authentication](blog/microsoft-365-app-authentication.md)
   * [Intune - Wi-Fi Templates PENDING STATE](blog/intune-wi-fi-templates-pending-state.md)
+  * [Microsoft 365 - Evergreen installer](blog/microsoft-365-evergreen-installer.md)
 
 ## Getting Started
 
