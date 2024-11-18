@@ -7,6 +7,7 @@
     * [Part 1: Bootx64.efi: Windows UEFI 2023 CA signed](blog/cve-2023-24932/part-1-bootx64.efi-windows-uefi-2023-ca-signed.md)
     * [Part 2: Applying the mitigation](blog/cve-2023-24932/part-2-applying-the-mitigation.md)
   * [Microsoft 365 App Authentication](blog/microsoft-365-app-authentication.md)
+  * [Intune - Wi-Fi Templates PENDING STATE](blog/intune-wi-fi-templates-pending-state.md)
 
 ## Getting Started
 
