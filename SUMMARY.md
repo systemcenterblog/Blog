@@ -9,6 +9,7 @@
   * [Microsoft 365 App Authentication](blog/microsoft-365-app-authentication.md)
   * [Intune - Wi-Fi Templates PENDING STATE](blog/intune-wi-fi-templates-pending-state.md)
   * [Microsoft 365 - Evergreen installer](blog/microsoft-365-evergreen-installer.md)
+  * [Intune Device Filter: Laptops Only](blog/intune-device-filter-laptops-only.md)
 
 ## Getting Started
 
