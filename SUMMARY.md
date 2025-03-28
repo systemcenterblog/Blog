@@ -10,6 +10,7 @@
   * [Intune - Wi-Fi Templates PENDING STATE](blog/intune-wi-fi-templates-pending-state.md)
   * [Microsoft 365 - Evergreen installer](blog/microsoft-365-evergreen-installer.md)
   * [Intune Device Filter: Laptops Only](blog/intune-device-filter-laptops-only.md)
+  * [“Unlock the PC” WebSignIn error](blog/unlock-the-pc-websignin-error.md)
 
 ## Getting Started
 
