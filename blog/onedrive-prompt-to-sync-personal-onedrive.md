@@ -1,8 +1,17 @@
-# OneDrive
+---
+description: >-
+  Microsoft's roadmap includes a prompt for users to sync their personal
+  OneDrive files. This blog covers block personal OneDrive or Blocking the
+  Prompt.
+---
+
+# OneDrive: Prompt to sync personal OneDrive
 
 #### You may have seen Microsoft's roadmap in which users will receive a prompt to sync their personal OneDrive files  [https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=490064](https://www.microsoft.com/en-us/microsoft-365/roadmap?searchterms=490064) <a href="#hide-the-messages-to-sync-consumer-onedrive-files" id="hide-the-messages-to-sync-consumer-onedrive-files"></a>
 
 <figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+
+Microsoft's roadmap includes a prompt for users to sync their personal OneDrive files. To prevent users from syncing personal OneDrive accounts, you can enable a setting that blocks users from signing in with a Microsoft account to sync their personal OneDrive files. If you prefer to allow syncing but want to avoid prompts that might confuse users, you can hide messages encouraging users to sync Consumer OneDrive files.
 
 #### The general advice is to Prevent users from syncing personal OneDrive accounts [https://learn.microsoft.com/en-us/sharepoint/use-group-policy#prevent-users-from-syncing-personal-onedrive-accounts](https://learn.microsoft.com/en-us/sharepoint/use-group-policy#prevent-users-from-syncing-personal-onedrive-accounts) <a href="#hide-the-messages-to-sync-consumer-onedrive-files" id="hide-the-messages-to-sync-consumer-onedrive-files"></a>
 
