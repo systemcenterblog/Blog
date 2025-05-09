@@ -21,7 +21,7 @@ When reviewing the "SMSProv.log" file located in "Program Files\Microsoft Config
 
 In the wsyncmgr.log file located "Program Files\Microsoft Configuration Manager\Logs", an issue is visible: "Cannot insert duplicate key in object 'dbo.CI\_DocumentStore'. The duplicate key value is (33554717)
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
 
 To view the record stored in the database under Document\_ID 33554717, use this SQL command to list the entry and inspect its XML body.
 

@@ -6,9 +6,9 @@ The same policy discussed below is deployed to Windows 10 without issue. In Wind
 \
 This article will explain why? If the user clicks 'Sign-in Options' they get the traditional Username and Password boxes which logs in without issue. Windows 10 devices receiving the same policy do not see the 'Unlock the PC' and are simply presented with the traditional Username and Password boxes.
 
-<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (5) (1).png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4) (1).png" alt=""><figcaption></figcaption></figure>
 
 Lets start by explain why the login screen options changed. There is a policy that Enables Web Sign-in which we originally set to 'enabled' to allow Temporary Access Pass (TAP) in Windows 10.  The same setting has a completely different user experience in Windows 11 and defaults to encouraging users to authenticate using passwordless /Microsoft Authenticator. This is a great feature and is something i would encourage you to look into.\
 \
