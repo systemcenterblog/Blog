@@ -41,13 +41,6 @@ DBCC execution completed. If DBCC printed error messages, contact your system ad
 
 The current identity value is `33554719`, while the current column value is `33564282`.
 
-**Execution Status**
-
-* DBCC command executed successfully.
-* If errors were printed during this process, please contact your system administrator
-
-![](<../.gitbook/assets/image (15).png>)
-
 `DBCC CHECKIDENT('CI_DocumentStore',RESEED, 33564282)`
 
 ![](<../.gitbook/assets/image (16).png>)
@@ -63,4 +56,4 @@ Here's a breakdown of what each part does:
 * **`RESEED`**: This option resets the current identity value.
 * `33564282` : This is the new identity value that you want to set for the table.
 
-After executing this command, the next row inserted into the `CI_DocumentStore` table will have an identity value of 33564282.\
+After executing this command, the next row inserted into the `CI_DocumentStore` table will have an identity value of 33564283.\
