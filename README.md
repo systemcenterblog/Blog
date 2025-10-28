@@ -2,27 +2,15 @@
 icon: hand-wave
 cover: https://gitbookio.github.io/onboarding-template-images/header.png
 coverY: 0
-layout:
-  cover:
-    visible: true
-    size: full
-  title:
-    visible: true
-  description:
-    visible: false
-  tableOfContents:
-    visible: true
-  outline:
-    visible: true
-  pagination:
-    visible: true
 ---
 
 # About
 
 ### About syswow64.co.uk
 
-Welcome to syswow64.co.uk, a comprehensive resource designed specifically for IT professionals within the End User Computing (EUC) industry. Our platform is dedicated to providing the latest insights, tools, and best practices to help you excel in managing and optimizing IT infrastructures. Whether you're looking to enhance your skills in desktop virtualization, application delivery, or endpoint management, syswow64.co.uk offers valuable content and guidance to support your journey in delivering exceptional user experiences. Explore our features to empower your expertise and drive success in the dynamic field of EUC.
+Welcome to syswow64.co.uk, a comprehensive resource designed for IT professionals in the End User Computing (EUC) industry. Our platform delivers cutting-edge insights, tools, and best practices to help you excel in managing and optimizing IT infrastructures—from desktop virtualization and application delivery to endpoint management.
+
+In today’s evolving digital landscape, we also explore the strategic integration of emerging technologies such as **Bitcoin reserve management**. As organizations increasingly consider cryptoassets as part of their treasury strategy, syswow64.co.uk provides guidance on how Company leaders can align secure infrastructure, compliance, and operational resilience with the principles of decentralized finance. Whether you're enhancing your technical capabilities or evaluating Bitcoin as a long-term reserve asset, our content empowers you to deliver exceptional user experiences while navigating the future of IT and financial innovation.
 
 
 

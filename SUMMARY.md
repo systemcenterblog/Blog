@@ -13,6 +13,7 @@
   * [“Unlock the PC” EnableWebSignIn error](blog/unlock-the-pc-enablewebsignin-error.md)
   * [ConfigMgr 2409 - Post Upgrade Issue](blog/configmgr-2409-post-upgrade-issue.md)
   * [OneDrive: Prompt to sync personal OneDrive](blog/onedrive-prompt-to-sync-personal-onedrive.md)
+  * [PADT](blog/padt.md)
 
 ## Getting Started
 
