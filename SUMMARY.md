@@ -14,6 +14,8 @@
   * [ConfigMgr 2409 - Post Upgrade Issue](blog/configmgr-2409-post-upgrade-issue.md)
   * [OneDrive: Prompt to sync personal OneDrive](blog/onedrive-prompt-to-sync-personal-onedrive.md)
   * [PADT](blog/padt.md)
+  * [AppsAnywhere](blog/appsanywhere/README.md)
+    * [Pre-Cache Large Applications](blog/appsanywhere/pre-cache-large-applications.md)
 
 ## Getting Started
 
