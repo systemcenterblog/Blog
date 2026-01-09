@@ -27,6 +27,6 @@ While this is not an exhaustive list, the following applications are excellent c
 * **Solidworks (Educational)**
 * **Unity**
 
-By focusing pre-caching efforts on these larger, resource-intensive applications, you can optimize performance and provide a better experience for your users. For smaller applications, standard on-demand delivery is usually sufficient and more efficient.
+By focusing pre-caching efforts on these larger, resource-intensive applications, you can optimize performance and provide a better experience for your users. For smaller applications, standard on-demand delivery is usually sufficient and more efficient.<br>
 
-{% @github-files/github-code-block %}
+{% @github-files/github-code-block url="https://github.com/systemcenterblog/AppsAnywhere/blob/main/Precache_AutoLicenseSTP.ps1" %}
