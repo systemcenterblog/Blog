@@ -1,5 +1,11 @@
 # Okta for AI Agents
 
+Okta YouTube channel [https://www.youtube.com/@OktaInc](https://www.youtube.com/@OktaInc) has recently published some great content on [Okta for AI Agents](https://www.youtube.com/watch?v=7Gx27rZxmqg\&list=PLIid085fSVdtQ2bDTgJYD5KccvnF8L-hC) and they produced a Blue Print to secure Agentic AI in the Enterprise. This is some great insight that can be applied across other Identity Providers i.e. Entra ID.<br>
+
+<figure><img src="../../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/image (19).png" alt=""><figcaption></figcaption></figure>
+
 🚀 **Securing AI in the Enterprise – How Okta Implements Identity-Driven AI Security**
 
 As AI adoption accelerates across enterprise environments (Copilot, agentic workflows, API-driven automation), a new problem emerges:
