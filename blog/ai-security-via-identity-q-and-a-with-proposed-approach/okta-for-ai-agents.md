@@ -31,7 +31,7 @@ This allows:
   * APIs accessed
   * potential risk surface
 
-👉 Agents are no longer invisible; they become auditable assets. [\[siliconangle.com\]](https://siliconangle.com/2026/03/16/okta-unveils-new-framework-manage-ai-agents-upcoming-okta-ai-agents-platform/), [\[biometricupdate.com\]](https://www.biometricupdate.com/202605/okta-pushes-vendor-neutral-identity-governance-for-ai-agents)
+👉 Agents are no longer invisible; they become auditable assets. \[siliconangle.com], \[biometricupdate.com]
 
 ***
 
@@ -52,7 +52,7 @@ This effectively gives every AI agent:
 * A defined owner
 * A place in IAM governance
 
-👉 The same identity model used for users now applies to AI. [\[heise.de\]](https://www.heise.de/en/news/Okta-Digital-identity-for-AI-agents-10696395.html), [\[biometricupdate.com\]](https://www.biometricupdate.com/202509/okta-upgrade-of-agentic-ai-capabilities-includes-support-for-mdls-digital-ids)
+👉 The same identity model used for users now applies to AI. \[heise.de], \[biometricupdate.com]
 
 ***
 
@@ -75,7 +75,7 @@ Additionally:
 * Connections between AI agents and systems are **policy-driven** rather than application-managed
 * Credentials are abstracted from code, reducing exposure
 
-👉 This directly mitigates credential leakage and privilege escalation risks. [\[okta.com\]](https://www.okta.com/products/govern-ai-agent-identity/)
+👉 This directly mitigates credential leakage and privilege escalation risks. \[okta.com]
 
 ***
 
@@ -100,7 +100,7 @@ Key capabilities:
   * time-bound
 * Logs all agent-to-app interactions
 
-👉 This eliminates unmanaged API integrations and implicit trust models. [\[okta.com\]](https://www.okta.com/solutions/cross-app-access/), [\[securitymea.com\]](https://securitymea.com/2025/06/24/okta-introduces-new-protocol-for-securing-ai-agents/)
+👉 This eliminates unmanaged API integrations and implicit trust models. \[okta.com], \[securitymea.com]
 
 ***
 
@@ -122,7 +122,7 @@ Critically:
 
 * A **single action can deactivate an agent** across all connected systems
 
-👉 This provides deterministic control over non-deterministic systems. [\[biometricupdate.com\]](https://www.biometricupdate.com/202605/okta-pushes-vendor-neutral-identity-governance-for-ai-agents), [\[siliconangle.com\]](https://siliconangle.com/2026/03/16/okta-unveils-new-framework-manage-ai-agents-upcoming-okta-ai-agents-platform/)
+👉 This provides deterministic control over non-deterministic systems. \[biometricupdate.com], \[siliconangle.com]
 
 ***
 
@@ -145,7 +145,7 @@ This provides:
   * Which identity it used
   * What data was accessed
 
-👉 Essential for compliance (GDPR, SOC2) and incident response. [\[biometricupdate.com\]](https://www.biometricupdate.com/202605/okta-pushes-vendor-neutral-identity-governance-for-ai-agents)
+👉 Essential for compliance (GDPR, SOC2) and incident response. \[biometricupdate.com]
 
 ***
 
@@ -173,7 +173,7 @@ Okta extends security beyond access control with **Identity Threat Protection (I
 * Revoke session (universal logout)
 * Restrict access dynamically
 
-👉 Security decisions are made continuously, not just at authentication. [\[help.okta.com\]](https://help.okta.com/oie/en-us/content/topics/itp/overview.htm), [\[msspalert.com\]](https://www.msspalert.com/news/okta-delivers-ai-powered-identity-threat-protection)
+👉 Security decisions are made continuously, not just at authentication. \[help.okta.com], \[msspalert.com]
 
 ***
 
@@ -193,7 +193,7 @@ All of this rolls up into what Okta calls an **identity security fabric**:
   * Monitoring
   * governance
 
-👉 Identity becomes the **control plane across all actors** in the enterprise. [\[biometricupdate.com\]](https://www.biometricupdate.com/202509/okta-upgrade-of-agentic-ai-capabilities-includes-support-for-mdls-digital-ids)
+👉 Identity becomes the **control plane across all actors** in the enterprise. \[biometricupdate.com]
 
 ***
 
