@@ -47,8 +47,7 @@ This setting for what ever reason is not in the Intune Setting Catalog and is on
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-In addition, finding the setting in the ADMX is also confusing, you will need to search for `"Disable a toast and activity center message to encourage a user to sign in OneDrive using an existing credential that is made available to Microsoft applications"`\
-
+In addition, finding the setting in the ADMX is also confusing, you will need to search for `"Disable a toast and activity center message to encourage a user to sign in OneDrive using an existing credential that is made available to Microsoft applications"`<br>
 
 <figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption></figcaption></figure>
 

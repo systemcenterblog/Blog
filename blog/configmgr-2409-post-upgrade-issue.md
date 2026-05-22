@@ -56,4 +56,4 @@ Here's a breakdown of what each part does:
 * **`RESEED`**: This option resets the current identity value.
 * `33564282` : This is the new identity value that you want to set for the table.
 
-After executing this command, the next row inserted into the `CI_DocumentStore` table will have an identity value of 33564283.\
+After executing this command, the next row inserted into the `CI_DocumentStore` table will have an identity value of 33564283.<br>

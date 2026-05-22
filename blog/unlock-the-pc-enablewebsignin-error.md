@@ -15,8 +15,7 @@ Lets start by explain why the login screen options changed. There is a policy th
 &#xNAN;**"Web sign-in is a credential provider that enables a web-based sign-in experience on Windows devices. Initially introduced in Windows 10 with support for Temporary Access Pass (TAP) only, Web sign-in expanded its capabilities starting in Windows 11"**\
 \
 ./Device/Vendor/MSFT/Policy/Config/Authentication/EnableWebSignIn\
-[https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-authentication#enablewebsignin](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-authentication#enablewebsignin)\
-
+[https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-authentication#enablewebsignin](https://learn.microsoft.com/en-us/windows/client-management/mdm/policy-csp-authentication#enablewebsignin)<br>
 
 However, from the screenshot above this was not working as the device could not get to [https://login.microsoftonline.com/webApp/WindowsLogon/1](https://login.microsoftonline.com/webApp/WindowsLogon/1%22) to complete the authentication process.
 
