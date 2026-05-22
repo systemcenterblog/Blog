@@ -3,6 +3,7 @@
 * [About](README.md)
   * [Contributors](readme/contributors.md)
 * [Blog](blog/README.md)
+  * [🔐 AI Security via Identity – Q\&A with Proposed Approach](blog/ai-security-via-identity-q-and-a-with-proposed-approach.md)
   * [CVE-2023-24932](blog/cve-2023-24932/README.md)
     * [Part 1: Bootx64.efi: Windows UEFI 2023 CA signed](blog/cve-2023-24932/part-1-bootx64.efi-windows-uefi-2023-ca-signed.md)
     * [Part 2: Applying the mitigation](blog/cve-2023-24932/part-2-applying-the-mitigation.md)
