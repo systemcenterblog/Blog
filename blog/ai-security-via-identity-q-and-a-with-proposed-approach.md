@@ -1,3 +1,10 @@
+---
+description: >-
+  Securing AI in enterprise environments is crucial, and my research focuses on
+  applying identity-driven controls. This approach treats AI agents as managed
+  identities, ensuring governed access, monitor
+---
+
 # 🔐 AI Security via Identity – Q\&A with Proposed Approach
 
 ### ❓ 1. Do we know what AI systems exist in our environment?
