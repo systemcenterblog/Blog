@@ -1,6 +1,6 @@
 # 🔐 AI Security via Identity – Q\&A with Proposed Approach
 
-❓ 1. Do we know what AI systems exist in our environment?
+### ❓ 1. Do we know what AI systems exist in our environment?
 
 Answer:
 
@@ -20,7 +20,7 @@ Most enterprises do not have full visibility of AI usage. AI agents, automation 
 
 &#x20;
 
-❓ 2. Are AI systems treated as identities?
+### ❓ 2. Are AI systems treated as identities?
 
 Answer:
 
@@ -42,7 +42,7 @@ Traditionally, AI runs under service accounts or API keys, meaning:
 
 &#x20;
 
-❓ 3. What access do AI systems have?
+### ❓ 3. What access do AI systems have?
 
 Answer:
 
@@ -66,7 +66,7 @@ This creates high-risk attack paths.
 
 &#x20;
 
-❓ 4. How are AI systems authenticated?
+### ❓ 4. How are AI systems authenticated?
 
 Answer:
 
@@ -89,7 +89,7 @@ These are high-risk and difficult to rotate.
 
 &#x20;
 
-❓ 5. Can we control what AI systems do?
+### ❓ 5. Can we control what AI systems do?
 
 Answer:
 
@@ -111,7 +111,7 @@ Without governance, AI systems can:
 
 &#x20;
 
-❓ 6. Do we have lifecycle control over AI systems?
+### ❓ 6. Do we have lifecycle control over AI systems?
 
 Answer:
 
@@ -134,7 +134,7 @@ AI systems are often:
 
 &#x20;
 
-❓ 7. Are AI activities monitored and auditable?
+### ❓ 7. Are AI activities monitored and auditable?
 
 Answer:
 
@@ -156,7 +156,7 @@ In many environments:
 
 &#x20;
 
-❓ 8. Can we detect and respond to AI-related threats?
+### ❓ 8. Can we detect and respond to AI-related threats?
 
 Answer:
 
@@ -184,7 +184,7 @@ Traditional controls may not detect these in real time.
 
 &#x20;
 
-❓ 9. How do we secure AI-to-system interactions?
+### ❓ 9. How do we secure AI-to-system interactions?
 
 Answer:
 
@@ -207,7 +207,7 @@ AI systems frequently interact across multiple applications and APIs, often with
 
 &#x20;
 
-❓ 10. How does this align with Zero Trust?
+### ❓ 10. How does this align with Zero Trust?
 
 Answer:
 
@@ -226,7 +226,7 @@ AI breaks traditional perimeter-based security:
 
 &#x20;
 
-✅ Final Summary
+### ✅ Final Summary
 
 Key principle:
 
