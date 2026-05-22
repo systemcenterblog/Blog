@@ -6,17 +6,17 @@ Answer:
 
 Most enterprises do not have full visibility of AI usage. AI agents, automation scripts, SaaS AI tools, and developer integrations often operate outside traditional governance (“shadow AI”).
 
-Proposed approach:
+**Proposed approach:**
 
 * Build a central AI inventory (like CMDB for AI)
 * Discover:
-* AI SaaS tools (Copilot, ChatGPT, etc.)
-* Internal AI apps and APIs
-* Automated workflows and agents
+  * AI SaaS tools (Copilot, ChatGPT, etc.)
+  * Internal AI apps and APIs
+  * Automated workflows and agents
 * Tag each AI system with:
-* Owner
-* Purpose
-* Risk classification
+  * Owner
+  * Purpose
+  * Risk classification
 
 &#x20;
 
@@ -30,15 +30,15 @@ Traditionally, AI runs under service accounts or API keys, meaning:
 * Shared credentials
 * Poor traceability
 
-Proposed approach:
+**Proposed approach:**
 
 * Treat every AI system as an identity (non-human identity)
 * Assign:
-* Unique identity (not shared accounts)
-* Named owner (business accountability)
+  * Unique identity (not shared accounts)
+  * Named owner (business accountability)
 * Apply the same governance as:
-* Users
-* Devices
+  * Users
+  * Devices
 
 &#x20;
 
@@ -54,14 +54,14 @@ AI agents often have broad or uncontrolled access, including:
 
 This creates high-risk attack paths.
 
-Proposed approach:
+**Proposed approach:**
 
 * Enforce least privilege access
-* Only grant what is strictly required
+  * Only grant what is strictly required
 * Replace static credentials with:
-* Short-lived tokens
+  * Short-lived tokens
 * Use:
-* Role-based or attribute-based access control
+  * Role-based or attribute-based access control
 * Regularly review and certify access
 
 &#x20;
@@ -77,14 +77,14 @@ Many AI systems rely on:
 
 These are high-risk and difficult to rotate.
 
-Proposed approach:
+**Proposed approach:**
 
 * Use modern authentication mechanisms, such as:
-* Token-based authentication
-* Dynamic credentials
+  * Token-based authentication
+  * Dynamic credentials
 * Eliminate:
-* Hardcoded secrets
-* Shared credentials
+  * Hardcoded secrets
+  * Shared credentials
 * Integrate AI systems into the same identity authentication framework as users and apps
 
 &#x20;
@@ -99,15 +99,15 @@ Without governance, AI systems can:
 * Execute unintended actions
 * Operate without oversight
 
-Proposed approach:
+**Proposed approach:**
 
 * Define policy-based control:
-* What the AI can access
-* What actions it can perform
+  * What the AI can access
+  * What actions it can perform
 * Enforce centrally (not at app level)
 * Apply Zero Trust principles:
-* Never trust, always verify
-* Validate every request
+  * Never trust, always verify
+  * Validate every request
 
 &#x20;
 
@@ -121,16 +121,16 @@ AI systems are often:
 * Left running indefinitely
 * Never decommissioned
 
-Proposed approach:
+**Proposed approach:**
 
 * Implement identity lifecycle management for AI:
-* Onboarding approval
-* Periodic review
-* Automated deprovisioning
+  * Onboarding approval
+  * Periodic review
+  * Automated deprovisioning
 * Introduce:
-* “Kill switch” capability for rapid shutdown
+  * “Kill switch” capability for rapid shutdown
 * Integrate into:
-* DevOps / release pipelines
+  * DevOps / release pipelines
 
 &#x20;
 
@@ -143,16 +143,16 @@ In many environments:
 * AI actions are not logged consistently
 * No clear audit trail exists
 
-Proposed approach:
+**Proposed approach:**
 
 * Log:
-* Authentication events
-* Access requests
-* Actions performed by AI
+  * Authentication events
+  * Access requests
+  * Actions performed by AI
 * Integrate with:
-* SIEM / monitoring platforms
+  * SIEM / monitoring platforms
 * Enable:
-* Full traceability (who / what / when / why)
+  * Full traceability (who / what / when / why)
 
 &#x20;
 
@@ -168,19 +168,19 @@ AI introduces new risks:
 
 Traditional controls may not detect these in real time.
 
-Proposed approach:
+**Proposed approach:**
 
 * Implement continuous monitoring:
-* Behavioural analysis
-* Risk scoring
+  * Behavioural analysis
+  * Risk scoring
 * Trigger automated responses:
-* Session termination
-* Access restriction
-* Step-up authentication
+  * Session termination
+  * Access restriction
+  * Step-up authentication
 * Combine identity signals with:
-* Endpoint
-* Network
-* Application telemetry
+  * Endpoint
+  * Network
+  * Application telemetry
 
 &#x20;
 
@@ -193,17 +193,17 @@ AI systems frequently interact across multiple applications and APIs, often with
 * Implicit trust
 * Poor visibility
 
-Proposed approach:
+**Proposed approach:**
 
 * Centralize control at the identity layer
 * Secure:
-* API-to-API interactions
-* AI-to-app integrations
+  * API-to-API interactions
+  * AI-to-app integrations
 * Use:
-* Policy-based authorization
-* Scoped access tokens
+  * Policy-based authorization
+  * Scoped access tokens
 * Eliminate:
-* Direct unmanaged connections
+  * Direct unmanaged connections
 
 &#x20;
 
@@ -216,17 +216,17 @@ AI breaks traditional perimeter-based security:
 * Systems act autonomously
 * Decisions happen at machine speed
 
-Proposed approach:
+**Proposed approach:**
 
 * Extend Zero Trust to AI:
-* Verify every request (user, device, AI)
-* Enforce identity-based access
-* Continuously evaluate trust
+  * Verify every request (user, device, AI)
+  * Enforce identity-based access
+  * Continuously evaluate trust
 * Treat AI agents as high-risk identities by default
 
 &#x20;
 
-✅ Final Summary (Executive View)
+✅ Final Summary
 
 Key principle:
 
@@ -235,9 +235,9 @@ AI security is fundamentally an identity and access problem.
 Proposed enterprise model:
 
 * Central identity layer governs:
-* Users
-* Devices
-* AI systems
+  * Users
+  * Devices
+  * AI systems
 
 User / Device / AI Agent\
 &#x20;       ↓\
@@ -247,9 +247,7 @@ Apps / APIs / Data / AI Platforms<br>
 
 &#x20;
 
-💡 Practical takeaway for your role
-
-Given EUC / endpoint / Intune responsibilities cover:
+💡 Practical and technical takeaway for your role: EUC / endpoint / Intune responsibilities cover:
 
 * Device compliance
 * App deployment
