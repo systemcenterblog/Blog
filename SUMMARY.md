@@ -2,7 +2,7 @@
 
 * [About](README.md)
   * [Contributors](readme/contributors.md)
-  * [This Week in Tech, Digital & Social](https://app.gitbook.com/o/xqipMRLY97Fl65qJQN2e/s/Px9hfp0bcIkw1wuS0nls/)
+* [This Week in Tech, Digital & Social](https://app.gitbook.com/o/xqipMRLY97Fl65qJQN2e/s/Px9hfp0bcIkw1wuS0nls/)
 * [Blog](blog/README.md)
   * [🔐 AI Security via Identity – Q\&A with Proposed Approach](blog/ai-security-via-identity-q-and-a-with-proposed-approach/README.md)
     * [Okta for AI Agents](blog/ai-security-via-identity-q-and-a-with-proposed-approach/okta-for-ai-agents.md)
