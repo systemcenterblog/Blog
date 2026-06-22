@@ -1,4 +1,4 @@
-# June 22, 2026
+# Readme
 
 **AI Just Had Its Biggest Week Ever — And the Ad Industry Is Already Rebuilding Around It**
 
